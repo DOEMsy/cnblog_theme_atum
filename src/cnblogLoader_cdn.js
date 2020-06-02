@@ -97,7 +97,7 @@
   var staticIco = __BLOG_CONFIG__.staticIco || "https://cjunn.gitee.io/c_cnblog_vue/img/body/miao.ico";
   var extCss = __BLOG_CONFIG__.extCss || [];
   var extJs = __BLOG_CONFIG__.extJs || [];
-  var staticPath = staticSrc + staticVer + "/code/";
+  var staticPath = staticSrc + staticVer + "/product/code/";
   var staticParam = {
     css: [staticPath + "css/app.css"],
     js: [
