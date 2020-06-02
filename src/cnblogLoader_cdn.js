@@ -83,6 +83,14 @@
     });
   };
 
+  /*优化数学公式渲染*/
+  MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+    }
+  })
+  
   var __BLOG_CONFIG__ = window.__BLOG_CONFIG__ || {};
   var staticVer = __BLOG_CONFIG__.staticVer || "v1.0";
   var staticSrc = __BLOG_CONFIG__.staticSrc || "https://cdn.jsdelivr.net/gh/cjunn/atum@";

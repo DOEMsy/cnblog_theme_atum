@@ -13,5 +13,7 @@ hljs.registerLanguage('scala', require('highlight.js/lib/languages/scala'));
 hljs.registerLanguage('shell', require('highlight.js/lib/languages/shell'));
 hljs.registerLanguage('sql', require('highlight.js/lib/languages/sql'));
 hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'));
+hljs.registerLanguage('cpp', require('highlight.js/lib/languages/cpp'))
+hljs.registerLanguage('powershell', require('highlight.js/lib/languages/powershell'))
 
 export default hljs;
