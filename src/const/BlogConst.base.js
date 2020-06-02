@@ -1,8 +1,8 @@
 let openDev = false;//启动开发模式
-let blogAcc = "cjunn";
-let blogId = "571504";
-let blogPostId = "12237892";
-let blogName = "C君";
+let blogAcc = "DOEMsy";
+let blogId = "583475";
+let blogPostId = "12771395";
+let blogName = "DOEMsy";
 let blogUserGuid = "2476b4f3-9f13-4c75-389e-08d789d7fa8d";
 let blogUrlPre = "https://www.cnblogs.com/";
 let blogIndexPath = blogUrlPre + blogAcc;

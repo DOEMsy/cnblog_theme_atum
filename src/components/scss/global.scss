@@ -469,57 +469,57 @@ li.seatClz {
 
   h1 {
     font-size: 21px;
-    counter-increment: counter_h1;
+  //  counter-increment: counter_h1;
   }
 
-  h1::before {
-    content: counter(counter_h1) " ";
-  }
+  //h1::before {
+  //  content: counter(counter_h1) " ";
+  //}
 
   h2 {
     font-size: 19px;
-    counter-increment: counter_h2;
+  //  counter-increment: counter_h2;
   }
 
-  h2::before {
-    content: counter(counter_h1) "." counter(counter_h2) " ";
-  }
+  //h2::before {
+  //  content: counter(counter_h1) "." counter(counter_h2) " ";
+  //}
 
   h3 {
     font-size: 16px;
-    counter-increment: counter_h3;
+  //  counter-increment: counter_h3;
   }
 
-  h3::before {
-    content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) " ";
-  }
+  //h3::before {
+  //  content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) " ";
+  //}
 
   h4 {
     font-size: 14px;
-    counter-increment: counter_h4;
+  //  counter-increment: counter_h4;
   }
 
-  h4::before {
-    content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) " ";
-  }
+  //h4::before {
+  //  content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) " ";
+  //}
 
   h5 {
     font-size: 12px;
-    counter-increment: counter_h5;
+  //  counter-increment: counter_h5;
   }
 
-  h5::before {
-    content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) "." counter(counter_h5) " ";
-  }
+  //h5::before {
+  //  content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) "." counter(counter_h5) " ";
+  //}
 
   h6 {
     font-size: 11px;
-    counter-increment: counter_h6;
+  //  counter-increment: counter_h6;
   }
 
-  h6::before {
-    content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) "." counter(counter_h5) "." counter(counter_h6) " ";
-  }
+  //h6::before {
+  //  content: counter(counter_h1) "." counter(counter_h2) "." counter(counter_h3) "." counter(counter_h4) "." counter(counter_h5) "." counter(counter_h6) " ";
+  //}
 }
 
 
