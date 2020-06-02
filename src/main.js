@@ -30,8 +30,6 @@ Vue.directive('highlight', function (el) {
     }, index * 250);
   })
 })
-
-
 /* eslint-disable no-new */
 let vue = new Vue({
   el: '#app',

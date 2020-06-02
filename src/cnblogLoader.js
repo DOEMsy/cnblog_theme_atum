@@ -83,14 +83,6 @@
     });
   };
 
-  /*优化数学公式渲染*/
-  MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-    }
-  })
-
   var __BLOG_CONFIG__ = window.__BLOG_CONFIG__ || {};
   var staticSrc = __BLOG_CONFIG__.staticSrc || "https://cjunn.gitee.io/c_cnblog_vue/releases/";
   var staticVer = __BLOG_CONFIG__.staticVer || "20200225151856";
