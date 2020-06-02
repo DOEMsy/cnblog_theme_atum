@@ -6,7 +6,7 @@
           <div class="blog-menu-content">
             <div class="blog-head-wrap" @click="foucsMe">
               <router-link :to="VUE_CTX+'/author'" tag="div">
-                <img class="avatar-img" :src="avatar">
+                <img class="avatar-img" src="http://blog-static.cnblogs.com/files/DOEMsy/Snipaste_2020-04-07_22-53-09.ico">
               </router-link>
               <div>
           <span class="avatar-name">

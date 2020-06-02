@@ -104,6 +104,6 @@
   
   cnblogLoader(staticParam);
 
-  $(".avatar-img").attr("src","https://blog-static.cnblogs.com/files/DOEMsy/Snipaste_2020-04-07_22-53-09.ico");
+  //$(".avatar-img").attr("src","https://blog-static.cnblogs.com/files/DOEMsy/Snipaste_2020-04-07_22-53-09.ico");
 })();
 
