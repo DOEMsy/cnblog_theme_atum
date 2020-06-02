@@ -39,7 +39,6 @@ let vue = new Vue({
   template: '<App/>',
   beforeCreate: function () {
 
-    MathJax.Hub.Typeset()
     
     /*初始化百度统计*/
     BlogUtils.initBaiduCount();
