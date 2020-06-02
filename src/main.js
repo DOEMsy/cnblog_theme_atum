@@ -31,7 +31,6 @@ Vue.directive('highlight', function (el) {
   })
 })
 
-
 /* eslint-disable no-new */
 let vue = new Vue({
   el: '#app',
@@ -39,6 +38,9 @@ let vue = new Vue({
   components: {App},
   template: '<App/>',
   beforeCreate: function () {
+
+    MathJax.Hub.Typeset()
+    
     /*初始化百度统计*/
     BlogUtils.initBaiduCount();
     router.beforeEach((to, from, next) => {
