@@ -92,8 +92,8 @@
   })
   
   var __BLOG_CONFIG__ = window.__BLOG_CONFIG__ || {};
-  var staticVer = __BLOG_CONFIG__.staticVer || "v1.15.1";
-  var staticSrc = __BLOG_CONFIG__.staticSrc || "https://cdn.jsdelivr.net/gh/DOEMsy/atum@";
+  var staticVer = __BLOG_CONFIG__.staticVer || "v1.0";
+  var staticSrc = __BLOG_CONFIG__.staticSrc || "https://cdn.jsdelivr.net/gh/cjunn/atum@";
   var staticIco = __BLOG_CONFIG__.staticIco || "https://cjunn.gitee.io/c_cnblog_vue/img/body/miao.ico";
   var extCss = __BLOG_CONFIG__.extCss || [];
   var extJs = __BLOG_CONFIG__.extJs || [];
