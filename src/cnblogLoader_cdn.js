@@ -82,14 +82,6 @@
       })();
     });
   };
-
-  /*优化数学公式渲染*/
-  MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-    }
-  })
   
   var __BLOG_CONFIG__ = window.__BLOG_CONFIG__ || {};
   var staticVer = __BLOG_CONFIG__.staticVer || "v1.15.1";
@@ -109,6 +101,17 @@
     extJs: extJs,
     ico: staticIco,
   };
+  
   cnblogLoader(staticParam);
+
+  /*优化数学公式渲染*/
+  MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+    }
+  })
+  MathJax.Hub.Typeset()
+  
 })();
 
