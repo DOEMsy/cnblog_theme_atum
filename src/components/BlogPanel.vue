@@ -69,7 +69,6 @@
             });
             this.$bus.on("closeLoadingBar", (param) => {
                 this.isShowLoadingBar = false;
-                MathJax.Hub.Typeset()
             });
             this.$bus.on('beforeRoute', (param) => {
                 this.isShowLoading = true;
