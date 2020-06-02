@@ -69,6 +69,12 @@
             });
             this.$bus.on("closeLoadingBar", (param) => {
                 this.isShowLoadingBar = false;
+                MathJax.Hub.Config({
+                  tex2jax: {
+                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                    }
+                })
                 MathJax.Hub.Typeset()
             });
             this.$bus.on('beforeRoute', (param) => {
