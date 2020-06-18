@@ -21,7 +21,7 @@
           </div>
           <div class="item-right">
             <div class="item-title sing-ellipsis">
-              {{item.title.replace("<span>","").replace("</span>","")}}
+              {{item.title}}
             </div>
             <div class="item-content three-ellipsis">
               {{item.content}}
@@ -112,6 +112,9 @@
                         if (self.categoryType == 'all') {
                             BlogApi.loadAllArticle(self.page).then((data) => {
                                 self.articleList = data.list;
+                                self.articleList.forEach(item => {
+                                  item.title = item.title.replace("<span>","").replace("</span>","")
+                                });
                                 self.pageList = data.pageList;
                                 resolve();
                             });
@@ -119,6 +122,9 @@
                             BlogApi.loadCategoryArticle(self.categoryId, self.page).then((data) => {
                                 self.categoryName = data.categoryName;
                                 self.articleList = data.list;
+                                self.articleList.forEach(item => {
+                                  item.title = item.title.replace("<span>","").replace("</span>","")
+                                });
                                 self.pageList = data.pageList;
                                 resolve();
                             });
@@ -126,6 +132,9 @@
                             BlogApi.loadArchivesArticle(self.categoryId.replace("-", "/"), self.page).then((data) => {
                                 self.categoryName = data.categoryName;
                                 self.articleList = data.list;
+                                self.articleList.forEach(item => {
+                                  item.title = item.title.replace("<span>","").replace("</span>","")
+                                });
                                 self.pageList = data.pageList;
                                 resolve();
                             });
