@@ -21,7 +21,7 @@
           </div>
           <div class="item-right">
             <div class="item-title sing-ellipsis">
-              {{item.title.substring(6,item.title.length-7)}}
+              {{item.title}}
             </div>
             <div class="item-content three-ellipsis">
               {{item.content}}
