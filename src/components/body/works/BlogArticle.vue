@@ -164,6 +164,7 @@
                     new Promise((resolve, reject) => {
                         BlogApi.loadArticle(this.pageId).then((data) => {
                             self.article = data;
+                            self.article.title = self.article.title.replace("<span>","").replace("</span>","")
                             resolve();
                         }).catch(() => {
                             resolve();
