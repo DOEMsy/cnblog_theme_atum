@@ -21,7 +21,7 @@
           </div>
           <div class="item-right">
             <div class="item-title sing-ellipsis">
-              {{item.title}}
+              {{item.title.replace("<span>","").replace("</span>","")}}
             </div>
             <div class="item-content three-ellipsis">
               {{item.content}}
